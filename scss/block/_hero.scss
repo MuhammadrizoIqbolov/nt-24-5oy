@@ -1,0 +1,36 @@
+
+
+.hero {
+    background-image: url(../../cart.img/background_img.png);
+    padding-top: 100px;
+    
+
+}
+.main_content{
+    display: block;
+}
+.img_content{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.header_imges{
+    margin-left: 85px;
+    
+}
+.title_main{
+    margin-right: 70px;
+    color: var(--main-on-surface, #414141);
+text-align: center;
+font-size: 48px;
+font-weight: 700;
+line-height: 150%; 
+}
+
+    
+    .img_content {
+     text-align: center;
+     justify-content: center;
+    }
+    
+

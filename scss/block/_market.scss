@@ -1,0 +1,66 @@
+
+.title_shopp{
+    color: var(--main-on-surface, #414141);
+font-size: 36px;
+font-weight: 700;
+line-height: 150%;
+}
+.market_btn{
+    margin-bottom: 24px;
+    margin-top: 40px;
+}
+.card_btn{
+    height: 35px;
+flex-direction: column;
+justify-content: center;
+flex: 1 0 0;
+color: var(--main-on-secondary, #FFF);
+text-align: center;
+font-size: 15px;
+font-weight: 400;
+line-height: 150%;
+margin-left: 24px;
+color: #FFF;
+text-align: center;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+background: #00BAFC;
+border-radius: 5px;
+border: 2px solid #edeeed;
+padding: 6px 16px;
+transition: all 0.4s ease;
+background: var(--main-secondary, #70C05B);
+}
+.card_btn1{
+    height: 35px;
+flex-direction: column;
+justify-content: center;
+flex: 1 0 0;
+color: var(--main-on-secondary, #FFF);
+text-align: center;
+font-size: 15px;
+font-weight: 400;
+line-height: 150%;
+text-align: center;
+color: #FFF;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+background: #00BAFC;
+border-radius: 5px;
+border: 2px solid #edeeed;
+padding: 6px 16px;
+transition: all 0.4s ease;
+background: var(--main-secondary, #70C05B);
+}
+button {
+    border-color: #70C05B;
+width: 150px;
+height: 32px;
+padding: 8px;
+align-items: center;
+gap: 8px;
+border-radius: 4px;
+background: var(--main-secondary, #70C05B);
+}
