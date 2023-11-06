@@ -65,6 +65,6 @@ function addToCart() {
   // Bu funksiya korzina sahifasiga o'tishni amalga oshiradi
   window.location.href = "korzina.html";
 }
-
+//
 // "В корзину" tugmasiga click hodisasini qo'shish
 document.querySelector('.menu_btn').addEventListener('click', addToCart);
