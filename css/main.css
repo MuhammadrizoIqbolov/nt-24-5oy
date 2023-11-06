@@ -52,29 +52,29 @@ body {
 .container {
   max-width: 1300px;
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .main_container {
   max-width: 1300px;
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .container_server {
   max-width: 1300px;
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .container12 {
   max-width: 1300px;
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 nav {
@@ -470,11 +470,6 @@ nav select {
   color: var(--main-on-surface, #414141);
 }
 
-.backroun_img {
-  background-image: url(..//..//section.img/bg.png);
-  width: 100%;
-}
-
 .footer__icon_block {
   text-align: center;
   padding-left: 40px;
@@ -504,6 +499,36 @@ nav select {
   width: 16px;
   height: 16px;
   margin-left: 12px;
+}
+
+footer {
+  height: 180px;
+  background-image: url(..//..//section.img/bg.png);
+  background-color: var(--bodyBG);
+  padding: 40px 0;
+}
+
+.footer-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-list {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  color: var(--mainClr);
+}
+
+.phone-num {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.phone-num a {
+  color: var(--mainClr);
 }
 
 .hero {

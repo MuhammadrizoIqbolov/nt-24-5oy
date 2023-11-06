@@ -42,10 +42,10 @@ line-height: 150%;
     margin-left: 40px;
     color: var(--main-on-surface, #414141);
 }
-.backroun_img{
-  background-image: url(..//..//section.img/bg.png);
-  width: 100%;
-}
+// .backroun_img{
+//   background-image: url(..//..//section.img/bg.png);
+//   width: 100%;
+// }
 
 
 .footer__icon_block{
@@ -75,4 +75,30 @@ padding-left: 40px;
     height: 16px;
     margin-left: 12px;
   }
+
+footer {
+    height: 180px;
+    background-image: url(..//..//section.img/bg.png);
+    background-color: var(--bodyBG);
+    padding: 40px 0;
+}
+.footer-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-list {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    color: var(--mainClr);
+}
+.phone-num {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.phone-num a {
+    color: var(--mainClr);
+}
     
